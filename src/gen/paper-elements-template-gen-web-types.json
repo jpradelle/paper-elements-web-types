@@ -1,7 +1,7 @@
 {
     "$schema": "http://json.schemastore.org/web-types",
     "name": "paper-elements-web-types",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "framework": "-",
     "default-icon": "icon/polymer.png",
     "description-markup": "markdown",

@@ -35,7 +35,7 @@ Steps to update web-types definitions of `paper-elements-web-types` package:
 `src/gen` folder contains generated sources by `web-component-analyser`, should not be updated
 by hand, only via generator:
 ```bash
-npm run web-types-gen
+npm run web-types
 ```
 
 Other sources in `src` can be updated by hand.
