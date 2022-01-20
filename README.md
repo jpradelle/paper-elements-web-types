@@ -1,4 +1,4 @@
-# Web-Types for Material Web components
+# Web-Types for PolymerElements components
 Web-Types is a framework-agnostic format aimed at providing IDEs and other tools with the metadata 
 information about the contents of a component library. Its powerful name patterns allow encoding 
 information about web framework syntax or customizing code completion suggestions for large icon 
