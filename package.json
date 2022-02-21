@@ -17,7 +17,8 @@
     "web-types": "npm run web-types:wca && npm run web-types:css",
     "web-types:wca": "wca-webtypes node_modules/@polymer/app-* node_modules/@polymer/gold-* node_modules/@polymer/iron-* node_modules/@polymer/marked-* node_modules/@polymer/neon-* node_modules/@polymer/paper-* node_modules/@polymer/prism-* --path-as-absolute --cwd node_modules --discover-node-modules --format webtypes --out-file ./src/gen/paper-elements-gen-web-types.json --exclude-classes='LegacyElementMixin' --webtypes-config='{\"name\": \"paper-elements-web-types\", \"version\": \"'$npm_package_version'\", \"default-icon\": \"icon/polymer.png\", \"description-markup\": \"markdown\"}'",
     "web-types:css": "./css-extract.sh",
-    "version": "npm run web-types && git add src/gen/"
+    "bump": "replace-json-property ./src/paper-elements-extra-web-types.json version $npm_package_version -s 2",
+    "version": "npm run web-types && npm run bump && git add src/"
   },
   "devDependencies": {
     "@polymer/app-layout": "^3.1.0",
