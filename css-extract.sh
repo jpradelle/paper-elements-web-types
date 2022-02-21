@@ -47,14 +47,13 @@ do
 	build="$build{\"name\":\"$key\", \"descriptions\":\"${descriptions[$key]}\", \"values\":[\"${defaultValues[$key]}\"], \"priority\": \"low\"}"
 done
 
-cat > src/gen/paper-elements-template-css-web-types.json <<__EOF__
+cat > src/gen/paper-elements-css-web-types.json <<__EOF__
 {
   "\$schema": "http://json.schemastore.org/web-types",
   "name": "paper-elements-css-web-types",
-  "version": "",
+  "version": "$npm_package_version",
   "default-icon": "icon/polymer.png",
   "description-markup": "markdown",
-  "framework": "",
   "contributions": {
     "css": {
       "properties": [
