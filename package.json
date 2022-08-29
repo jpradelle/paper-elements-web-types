@@ -84,7 +84,7 @@
     "@polymer/paper-toolbar": "^3.0.1",
     "@polymer/paper-tooltip": "^3.0.1",
     "replace-json-property": "^1.8.0",
-    "web-component-analyzer-webtypes": "^2.0.5"
+    "web-component-analyzer-webtypes": "^2.0.6"
   },
   "wca": {
     "excludeClasses": "LegacyElementMixin",
